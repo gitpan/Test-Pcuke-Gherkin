@@ -65,7 +65,7 @@ sub collect_stats {
 	my ($self, $step) = @_;
 	
 	my $nsteps = $self->nsteps;
-	$nsteps->{ $_->status }++;
+	$nsteps->{ $step->status }++;
 	$self->_set_property('_nsteps', $nsteps);
 }
 

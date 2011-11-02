@@ -1,7 +1,6 @@
 Build.PL
 Changes
-MANIFEST
-README
+ignore.txt
 lib/Test/Pcuke/Gherkin.pm
 lib/Test/Pcuke/Gherkin/Executor.pm
 lib/Test/Pcuke/Gherkin/Executor/Status.pm
@@ -17,6 +16,10 @@ lib/Test/Pcuke/Gherkin/Node/Step.pm
 lib/Test/Pcuke/Gherkin/Node/Table.pm
 lib/Test/Pcuke/Gherkin/Node/Table/Row.pm
 lib/Test/Pcuke/Gherkin/Parser.pm
+MANIFEST
+MANIFEST.SKIP
+META.yml
+README
 t/00-load.t
 t/010-lexer.t
 t/020-i18n.t
@@ -31,8 +34,11 @@ t/100-step.t
 t/110-table.t
 t/120-table-row.t
 t/130-executor.t
+t/140-executor-status.t
+t/boilerplate.t
+t/integration.pm
+t/lib/Test/Pcuke/Gherkin/Tests/Mockery.pm
 t/manifest.t
 t/pod-coverage.t
 t/pod.t
 Makefile.PL
-META.yml

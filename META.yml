@@ -17,7 +17,7 @@ name: Test-Pcuke-Gherkin
 provides:
   Test::Pcuke::Gherkin:
     file: lib/Test/Pcuke/Gherkin.pm
-    version: 0.000001
+    version: 0.000002
   Test::Pcuke::Gherkin::Executor:
     file: lib/Test/Pcuke/Gherkin/Executor.pm
   Test::Pcuke::Gherkin::Executor::Status:
@@ -52,4 +52,4 @@ requires:
   Scalar::Util: 0
 resources:
   license: http://opensource.org/licenses/artistic-license.php
-version: 0.000001
+version: 0.000002
