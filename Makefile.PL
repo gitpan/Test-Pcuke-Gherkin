@@ -6,7 +6,9 @@ WriteMakefile
           'VERSION_FROM' => 'lib/Test/Pcuke/Gherkin.pm',
           'PREREQ_PM' => {
                            'Carp' => 0,
+                           'Exporter' => 0,
                            'FindBin' => 0,
+                           'Mock::Quick' => 0,
                            'Scalar::Util' => 0,
                            'Test::Most' => 0
                          },

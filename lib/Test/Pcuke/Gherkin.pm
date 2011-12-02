@@ -16,7 +16,7 @@ Version 0.000001
 
 =cut
 
-our $VERSION = '0.000002';
+our $VERSION = '0.000003';
 
 
 =head1 SYNOPSIS

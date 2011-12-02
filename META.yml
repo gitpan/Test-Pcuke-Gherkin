@@ -3,7 +3,9 @@ abstract: 'roll your own cucumber'
 author:
   - "\"Andrei V. Toutoukine\" <\"tut@isuct.ru\">"
 build_requires:
+  Exporter: 0
   FindBin: 0
+  Mock::Quick: 0
   Scalar::Util: 0
   Test::Most: 0
 configure_requires:
@@ -17,7 +19,7 @@ name: Test-Pcuke-Gherkin
 provides:
   Test::Pcuke::Gherkin:
     file: lib/Test/Pcuke/Gherkin.pm
-    version: 0.000002
+    version: 0.000003
   Test::Pcuke::Gherkin::Executor:
     file: lib/Test/Pcuke/Gherkin/Executor.pm
   Test::Pcuke::Gherkin::Executor::Status:
@@ -52,4 +54,4 @@ requires:
   Scalar::Util: 0
 resources:
   license: http://opensource.org/licenses/artistic-license.php
-version: 0.000002
+version: 0.000003

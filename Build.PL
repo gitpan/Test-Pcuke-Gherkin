@@ -9,8 +9,14 @@ my $builder = Module::Build->new(
     dist_version_from   => 'lib/Test/Pcuke/Gherkin.pm',
     build_requires => {
         'Test::Most'	=> 0,
+        # 'Test::Pod'				=> '>= 1.22',
+        # 'Test::Pod::Coverage '	=> '>= 1.08',
+        # 'Pod::Coverage'			=> '>= 0.18',
+        # 'Test::CheckManifest'	=> '0.9',
         'FindBin'		=> 0,
         'Scalar::Util'	=> 0,
+        'Exporter'		=> 0,
+        'Mock::Quick'	=> 0,
     },
     requires => {
     	'Scalar::Util'	=> 0,
